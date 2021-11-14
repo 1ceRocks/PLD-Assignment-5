@@ -34,6 +34,10 @@ if input_grade.replace(".","",1).isdigit() == True:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m3.0\033[0m \nDescription: \033[35;1mPassing\033[0m\n")
     elif final_grade >= 65 or final_grade == 74:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m5.0\033[0m \nDescription: \033[35;1mFailure\033[0m\n")
+    elif final_grade >= 0 or final_grade == 64:
+        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m could be one of the following: \nDescription: \033[31;1mIncomplete\033[0m, \033[31;1mWithdrawn\033[0m, or \033[31;1mDropped\033[0m\n")
+    elif final_grade <= -1:
+        print(f"\n\033[0mYour \033[92;1mInput Grade\033[0m: \033[33;1m{input_grade}\033[0m, is not included in \033[1mThe\033[0m \033[31;1mPUP Student Handbook 2014\033[0m: \033[1m\x1B[3mSection 8. Grading System\x1B[0m \nPlease try again with the appropriate user input.\n")
 #Included the three alphabetical grades (Inc., W, and D) with congruence in its specified description used into the program being inputted from the user.
 else:
     peripheral_grade = input_grade.title()
