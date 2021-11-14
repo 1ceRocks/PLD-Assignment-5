@@ -22,15 +22,15 @@ if input_grade.replace(".","",1).isdigit() == True:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m1.5\033[0m \nDescription: \033[35;1mVery Good\033[0m\n")
     elif final_grade >= 88 or final_grade == 90:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m1.75\033[0m \nDescription: \033[35;1mVery Good\033[0m\n")
-    elif final_grade >= 88 or final_grade == 90:
-        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.0\033[0m \nDescription: \033[35;1mGood\033[0m\n")
     elif final_grade >= 85 or final_grade == 87:
+        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.0\033[0m \nDescription: \033[35;1mGood\033[0m\n")
+    elif final_grade >= 82 or final_grade == 84:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.25\033[0m \nDescription: \033[35;1mGood\033[0m\n")
-    elif final_grade >= 82 or final_grade == 84:
-        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.5\033[0m \nDescription: \033[35;1mSatisfactory\033[0m\n")
-    elif final_grade >= 82 or final_grade == 84:
-        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.75\033[0m \nDescription: \033[35;1mSatisfactory\033[0m\n")
     elif final_grade >= 79 or final_grade == 81:
+        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.5\033[0m \nDescription: \033[35;1mSatisfactory\033[0m\n")
+    elif final_grade >= 76 or final_grade == 78:
+        print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m2.75\033[0m \nDescription: \033[35;1mSatisfactory\033[0m\n")
+    elif final_grade == 75:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m3.0\033[0m \nDescription: \033[35;1mPassing\033[0m\n")
     elif final_grade >= 65 or final_grade == 74:
         print(f"\n\033[0mAccording to your provided \033[92;1mInput Grade\033[0m: \033[33;1m{final_grade}\033[0m \nYour \033[92;1mGrade/Mark\033[0m shall be: \033[34;1m5.0\033[0m \nDescription: \033[35;1mFailure\033[0m\n")
